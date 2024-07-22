@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Responsive navbar - Bedimcode</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Logo</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <span>Home</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <span>About Us</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">
+                <span>Projects</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#studio" class="nav__link">
+                <span>Studio</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main>
+      <section class="container section section__height" id="home">
+        <h2 class="section__title">Home</h2>
+      </section>
+
+      <section class="container section section__height" id="about">
+        <h2 class="section__title">About Us</h2>
+      </section>
+
+      <section class="container section section__height" id="projects">
+        <h2 class="section__title">Projects</h2>
+      </section>
+
+      <section class="container section section__height" id="studio">
+        <h2 class="section__title">Studio</h2>
+      </section>
+
+      <section class="container section section__height" id="contact">
+        <h2 class="section__title">Contact</h2>
+      </section>
+    </main>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./script.js"></script>
+  </body>
+</html>
